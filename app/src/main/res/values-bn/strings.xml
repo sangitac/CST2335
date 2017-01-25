@@ -3,4 +3,10 @@
     <string name="app_name">Lab1</string>
     <string name="hello_message">Shuvo  Sokal!</string>
     <string name="ButtonText">I\’m a button</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Login">Probesh</string>
+    <string name="Password">SanketShobdo</string>
+    <string name="RadioButton">RadioBotam</string>
+    <string name="CheckBox">TikBaksho</string>
+    <string name="Switch"> Sachalkarun</string>
 </resources>
