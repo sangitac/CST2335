@@ -8,4 +8,9 @@
     <string name="RadioButton">RadioButton</string>
     <string name="CheckBox">CheckBox</string>
     <string name="Switch"> Enable Something</string>
+    <string name="dialog_message"> Do you want to exit? </string>
+    <string name="dialog_title"> Confirm </string>
+    <string name="ChatButtonText">Start Chat</string>
+    <string name="SendButtonText">Send</string>
+
 </resources>

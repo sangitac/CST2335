@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/EditText"
+        android:id="@+id/emailField"
         android:hint="login name" />
 
     <TextView
@@ -46,5 +46,12 @@
         android:layout_weight="0.88"
         android:selectAllOnFocus="false"
         android:hint="password" />
+
+    <Button
+        android:text="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"
+        android:layout_weight="0.88" />
 
 </LinearLayout>

@@ -21,7 +21,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:id="@+id/button"
+        android:id="@+id/start_button"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/ChatButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_button"
+        android:layout_alignEnd="@+id/start_button"
+        android:layout_marginTop="11dp"
+        android:id="@+id/chat_button" />
 </RelativeLayout>

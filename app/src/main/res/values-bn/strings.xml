@@ -9,4 +9,8 @@
     <string name="RadioButton">RadioBotam</string>
     <string name="CheckBox">TikBaksho</string>
     <string name="Switch"> Sachalkarun</string>
+    <string name="dialog_message"> Apni ki exit korte chan? </string>
+    <string name="dialog_title"> nischit korun</string>
+    <string name="ChatButtonText">Adda korun</string>
+    <string name="SendButtonText">Pathan </string>
 </resources>
