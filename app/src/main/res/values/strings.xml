@@ -12,5 +12,5 @@
     <string name="dialog_title"> Confirm </string>
     <string name="ChatButtonText">Start Chat</string>
     <string name="SendButtonText">Send</string>
-
+    <string name="weatherButton">WeatherForecast</string>
 </resources>

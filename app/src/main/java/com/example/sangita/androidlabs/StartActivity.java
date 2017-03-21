@@ -36,7 +36,18 @@ public class StartActivity extends AppCompatActivity {
 
             }
         });
+        Button weatherButton = (Button) findViewById(R.id.weatherButton);
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(activity_name, "User clicked weather");
+                Intent intent = new Intent(StartActivity.this, WeatherForecast.class);
+                startActivityForResult(intent, 5);
+            }
+        });
     }
+
+
     // Call Back method  to get the Message form other Activity
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
