@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/msgTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/msgText"
+        android:textSize="22sp" />
+
+    <!-- android:gravity="right"
+        -->
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msgTextView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="@string/idText"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/msgDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="10dp"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:text="@string/msgButtonText"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+</FrameLayout>
